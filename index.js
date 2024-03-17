@@ -31,6 +31,7 @@ app.get('/form', (req, res) => {
         <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 3px; cursor: pointer; width: 100%;">Enviar</button>
     </form>
     `)
+    
 })
 
 app.get('/redirect', (req, res) => {
